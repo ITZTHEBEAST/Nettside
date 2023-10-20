@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../Uke35/uke39"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "uke39"
+  }
+}
