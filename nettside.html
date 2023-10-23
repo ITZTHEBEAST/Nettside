@@ -1,75 +1,95 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="nettside.css" />
+    <!-- Lenke til ekstern CSS-fil -->
     <title>Document</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- Lenke til Google Fonts -->
   </head>
   <body>
-
-
     <div class="main">
       <div>
         <span class="material-symbols-outlined">
-      menu
-      </span>
+          menu
+          <!-- Tekst som vises i en spesiell font -->
+        </span>
       </div>
       <div class="linje">
         <div class="test">Dame</div>
+        <!-- Elementer for ulike kategorier -->
         <div class="test">Herre</div>
         <div class="test">barn</div>
       </div>
       <div class="box1">
-          <form action="/search" method="get">
-          <input class="soke" type="text" name="q" placeholder="Søk">
-        </div>
-    </div>
-      
+        <form action="/search" method="get">
+          <!-- Skjema for søk med GET-metoden -->
+          <input class="soke" type="text" name="q" placeholder="Søk" />
+          <!-- Inntastingsfelt for søketekst -->
+          <div class="menu-container">
+            <div class="menu">
+              <!-- Menyinnhold går her -->
+              <ul>
+                <li><a href="#">hjem</a></li>
+                <!-- Lenker til hjemmeside -->
+                <li><a href="#">om oss</a></li>
+                <!-- Lenker til "Om oss"-siden -->
 
-      
-        
-
-
-    </div>
-
-    </div>
-
-    <div>
-      <div class="img">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFaqNRC7uhwXxz2GPSU-5Blt9y92rHhJpeD7CfCuU&s"
-          alt="testbilde"
-        />
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFaqNRC7uhwXxz2GPSU-5Blt9y92rHhJpeD7CfCuU&s"
-          alt="testbilde"
-        />
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFaqNRC7uhwXxz2GPSU-5Blt9y92rHhJpeD7CfCuU&s"
-          alt="testbilde"
-        />
-        
+                <!-- Lenker til tjenestesiden -->
+                <li><a href="#">Kontakt</a></li>
+                <!-- Lenker til kontaktsiden -->
+              </ul>
+            </div>
+          </div>
+          <div class="menu-button" onclick="toggleMenu()">&#9776;</div>
+          <!-- Knapp for å vise/skjule meny -->
+        </form>
       </div>
     </div>
-    
-    <div>
-      <div class="img">
+    <div class="scrollable-grid">
+      <div class="grid">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFaqNRC7uhwXxz2GPSU-5Blt9y92rHhJpeD7CfCuU&s"
-          alt="testbilde"
+          src="https://www.openspacevashon.com/wp-content/uploads/2020/02/test.jpg"
+          alt=""
         />
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFaqNRC7uhwXxz2GPSU-5Blt9y92rHhJpeD7CfCuU&s"
-          alt="testbilde"
-        />
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFaqNRC7uhwXxz2GPSU-5Blt9y92rHhJpeD7CfCuU&s"
-          alt="testbilde"
-        />
-        
       </div>
+      <!-- Repeterende grid-elementer -->
+      <div class="grid">
+        <img
+          src="https://www.openspacevashon.com/wp-content/uploads/2020/02/test.jpg"
+          alt=""
+        />
+      </div>
+      <div class="grid">
+        <img
+          src="https://www.openspacevashon.com/wp-content/uploads/2020/02/test.jpg"
+          alt=""
+        />
+      </div>
+      <div class="grid">
+        <img
+          src="https://www.openspacevashon.com/wp-content/uploads/2020/02/test.jpg"
+          alt=""
+        />
+      </div>
+      <div class="grid">
+        <img
+          src="https://www.openspacevashon.com/wp-content/uploads/2020/02/test.jpg"
+          alt=""
+        />
+      </div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <div class="grid"></div>
+      <!-- Legg til flere grid-elementer etter behov -->
     </div>
   </body>
 </html>
-<!-- he he he haw -->
+<!-- Dette er en kommentar som forklarer hva koden gjør -->
