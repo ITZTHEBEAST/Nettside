@@ -94,3 +94,7 @@ body {
   height: auto;
   border-radius: 8px;
 }
+
+.scrollable-grid::-webkit-scrollbar {
+  display: none; /* For Webkit (Chrome, Safari) based browsers */
+}
