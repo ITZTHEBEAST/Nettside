@@ -22,8 +22,8 @@ person 1
 5. ikke sikker , men bytte ut test bildene med kles bilder
 
 person 2
-1
-2
-3
-4
-5
+1 ja
+2 ja, men legg til en bar som viser hvor du er
+3 litt kjedelige farger, du kan få bedre design
+4 lett
+5 Bruker login, om oss kontakt oss
