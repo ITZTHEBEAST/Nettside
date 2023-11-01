@@ -1,10 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
 
 .main {
-  border-color: black;
-  height: 3vw;
+  background-color: rgb(255, 255, 255);
+  height: 4vw;
   width: 100%;
   z-index: 1;
+  top: 0;
+  position: fixed;
+  border-bottom-color: black;
+  border-bottom: 4px solid black;
+  justify-content: center; /* Horizontal centering */
+  align-items: center;
+  display: flex;
 }
 .linje {
   width: 100%;
@@ -67,7 +74,7 @@ a:active {
 
 body {
   margin: 0;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .soke {
@@ -84,9 +91,9 @@ body {
 
 .scrollable-grid .grid {
   display: inline-block;
-  width: 200px;
+  width: 170px;
   height: 200px;
-  margin: 5px;
+  margin: 10px;
 }
 
 .grid img {
@@ -104,4 +111,14 @@ body {
 .bruh {
   height: 40px;
   width: 40px;
+}
+
+.tredje_nav span {
+  float: right;
+  padding-right: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 14px;
+  size: 20px;
+  font-size: 30px;
 }
