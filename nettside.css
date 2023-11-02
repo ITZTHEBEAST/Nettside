@@ -2,7 +2,8 @@
 
 .main {
   background-color: rgb(255, 255, 255);
-  height: 4vw;
+  height: 6vh;
+  min-height: 75px;
   width: 100%;
   z-index: 1;
   top: 0;
@@ -26,7 +27,7 @@
 .liste {
   display: flex;
   align-items: center;
-  width: 33.333333%;
+  width: 50%;
   height: 100%;
   list-style: none;
   margin: 0;
@@ -46,7 +47,7 @@
   height: 100%;
 }
 .tredje_nav {
-  width: 33.3333334%;
+  width: 50%;
   height: 100%;
 }
 
@@ -115,10 +116,14 @@ body {
 
 .tredje_nav span {
   float: right;
-  padding-right: 20px;
+  align-content: center;
   justify-content: center;
-  align-items: center;
-  margin: 14px;
-  size: 20px;
+  display: flex;
   font-size: 30px;
+  margin-top: 20px;
+  padding-right: 30px;
+}
+
+.material-symbols-outlined:hover {
+  transform: scale(1.1);
 }
