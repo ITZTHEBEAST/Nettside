@@ -102,7 +102,7 @@ body {
   height: 600px;
   border-radius: 8px;
 }
-
+/* Skjuler rullefeltet i scrollbare grid-elementer for WebKit-baserte nettlesere */
 .scrollable-grid::-webkit-scrollbar {
   display: none;
 }
@@ -144,7 +144,6 @@ body {
   text-align: center;
   padding-top: 100px;
 }
-/* Your existing CSS content */
 
 .title {
   text-align: center;
@@ -201,6 +200,7 @@ h1 {
 }
 
 .barnebilder {
+  display: flex;
   padding: 50px;
   padding-bottom: 0px;
   padding-top: 0;
@@ -210,5 +210,5 @@ h1 {
   background-color: rgb(239, 212, 178);
   z-index: 1;
   display: flex;
-  justify-content: center; /* Center content horizontally */
+  justify-content: center;
 }
